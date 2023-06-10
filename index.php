@@ -62,8 +62,7 @@ $conn->close();
    <div  class="text-center">
     <nav aria-label="page pagination">
   <ul class="pagination">
-    <li class="page-item" ><a href="index.php?page=<?= $previous; ?>"></a>
-      <span class="page-link">Previous</span>
+    <li class="page-item" ><a href="index.php?page=<?= $page-1; ?>">Previous</a>
     </li>
     <?php for($i=1; $i<=$pages ; $i++) : ?>
     <li><a href="index.php?page=<?= $i; ?>"><?=$i;?></a>
